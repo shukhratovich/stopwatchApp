@@ -117,7 +117,7 @@ private fun StopwatchScreenContent(
                         ) {
                             Text(
                                 modifier = Modifier.align(Alignment.CenterStart),
-                                text = "Lap $index",
+                                text = "Lap ${index + 1}",
                                 fontSize = 24.sp
                             )
                             Text(
