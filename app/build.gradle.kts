@@ -69,4 +69,7 @@ dependencies {
     // Screen Model
     implementation("cafe.adriel.voyager:voyager-screenmodel:$voyagerVersion")
 
+    //DataStore
+    implementation("androidx.datastore:datastore-preferences:1.1.2")
+
 }
